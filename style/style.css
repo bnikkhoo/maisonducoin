@@ -1,0 +1,145 @@
+/* CSS Document */
+
+body {
+	background: url(../images/BG.gif) top;
+	margin: 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #000000;
+	height: 100%;
+}
+h2 {
+	margin: 0;
+	color: #B1B1B1;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#bg {
+	background: url(../images/BG2.gif) repeat-x top;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	width: 838px;
+	margin: 0 auto;
+	background: url(../images/bodyBG.gif) repeat-y top;
+}
+
+#shadowL {
+	background: url(../images/shadowL.gif) no-repeat top left;
+}
+#shadowR {
+	background: url(../images/shadowR.gif) no-repeat top right;
+}
+
+#wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header h1 {
+	margin: 0;
+}
+#header h1 a {
+	display: block;
+	background: url(../images/logo.jpg) no-repeat;
+	height: 56px;
+	text-indent: -3000px;
+}
+#header .graphic {
+	display: block;
+	height: 156px;
+	background: url(../images/headGraph02.jpg) no-repeat;
+}
+
+#nav {
+	height: 56px;
+	background: url(../images/navBG1.gif) repeat-x;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+#nav ul li a {
+	display: block;
+	float: left;
+	padding: 16px 21px 20px 21px;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+}
+#nav ul li a:hover {
+	background: url(../images/navBG2.gif) repeat-x;
+}
+#nav ul li .sep {
+	display: block;
+	float: left;
+	height: 56px;
+	width: 2px;
+	background: url(../images/navSep.gif) no-repeat;
+}
+
+#body {
+	padding: 22px;
+}
+#body .content {
+	width: 775px;
+	float: left;
+}
+#body .graphic {
+	width: 273px;
+	float: right;
+}
+
+#footer {
+	height: 63px;
+	background: url(../images/footerBG.gif) no-repeat;
+	text-align: center;
+	font-size: 11px;
+	color: #3D4258;
+	padding;
+}
+#footer a {
+	color: #3D3366;
+}
+#footer .nav {
+	margin: 0;
+	padding-top: 9px;
+}
+.fp_splash a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #C9C0B4;
+}
+.fp_splash a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFF00;
+}
+
+
+#footer .copyright {
+	margin: 8px 0 0 0;
+}
